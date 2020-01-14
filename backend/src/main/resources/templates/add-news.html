@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Yeni bir haber oluştur</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="/static/js/news.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+
+
+
+
+</head>
+<body>
+<br>
+<h3>
+    <small class="text-muted">Haber Ekleme Sayfası</small>
+</h3>
+<br>
+<form class="form-group" id="newsAddForm">
+    Haber Başlığı :
+    <input type="text"  id="titleNews" ><br><br>
+    Haber Türü    :
+    <input type="text" id="categoryNews" ><br><br>
+    Haber İçeriği : <br>
+    <textarea rows="15" cols="75" id="contentNews"  >Haber içeriği
+    </textarea><br><br>
+    Haber Resmi   : <br>
+    <input type="file" class="btn btn-primary btn-sm float-left" name="picture" accept="image/*" id="image"> <br><br>
+    <button id="newsAddButton" type="button" class="btn btn-primary">Haberi Ekle</button>
+</form>
+</body>
+
+</html>
